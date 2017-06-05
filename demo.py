@@ -15,5 +15,3 @@ body_reg.fit(x_values, y_values)
 plt.scatter(x_values, y_values)
 plt.plot(x_values, body_reg.predict(x_values))
 plt.show()
-
-print('I think it worked?')
